@@ -6,12 +6,11 @@ function addTask () {
   if (taskText === "") {
     alert("Please Add Task!!!");
     return;
-
+  }
   const listItem = document.createElement("li");
 
   listItem.innerHTML = taskText;
   listContainer.appendChild(listItem);
   inputField.value = "";
-  }
 }
   
