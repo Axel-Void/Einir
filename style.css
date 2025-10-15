@@ -1,19 +1,19 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  min-heght: 100vh;
-  background-color: #f0f0f5;
-  font-family: Arrial, sans-serif;
-  margin: 0;
+    min-height: 100vh; 
+    background-color: #f0f0f5;
+    font-family: Arial, sans-serif; 
+    margin: 0;
 }
 
 .main-container {
-  width: 350px;
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
+    width: 350px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
