@@ -12,8 +12,16 @@ function addTask () {
     <span>${taskText}</span>
     <button class = "delete-btn"> X </button>
   `;
+
+  listItem.addEventListener("click", function(event){
+    if (event.target.tagName) !== 'BUTTON'{
+      listItem.classList.toggle('checked');
+    }
+  });
+    
   const deleteButton = listItem.querySelector(".delete-btn")
-  deleteButton.addEventListener("click", function(){
+  deleteButton.addEventListener("click", function(event){
+    event.stopPropagation();
     listContainer.removeChild(listItem);                             
   })
   
