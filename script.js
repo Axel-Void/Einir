@@ -14,7 +14,7 @@ function addTask () {
   `;
   const deleteButton = listItem.querySelector(".delete-btn")
   deleteButton.addEventListener("click", function(){
-    listContainer.removeCiled(listItem);                             
+    listContainer.removeChild(listItem);                             
   })
   
   listContainer.appendChild(listItem);
