@@ -8,8 +8,15 @@ function addTask () {
     return;
   }
   const listItem = document.createElement("li");
-
-  listItem.innerHTML = taskText;
+  listItem.innerHTML = `
+    <span>${taskText}</span>
+    <button class = "delete-btn"> X </button>
+  `;
+  const deleteButton = listItem.querySelector(".delete-btn")
+  deleteButton.addEventListener("click", function(){
+    listContainer.removeCiled(listItem);                             
+  })
+  
   listContainer.appendChild(listItem);
   inputField.value = "";
 }
