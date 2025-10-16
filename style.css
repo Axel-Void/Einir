@@ -26,6 +26,18 @@ body {
     background-color: #f9f9f9;
     padding: 8px 15px;
     border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    list-stylr: none;
+}
+
+#task-list li.checked {
+    text-decoration = line-through;
+    color: #888;
+}
+
+#task-list li.checked:: before {
+    content: ``;
 }
 
 .delete-btn {
