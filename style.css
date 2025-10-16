@@ -17,3 +17,25 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
+#task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    background-color: #f9f9f9;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    color: fff;
+    background-color: #ff6b6b
+    cursor: pointer;
+    padding: 0;
+    font-weight: bold;
+}
