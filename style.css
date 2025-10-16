@@ -32,7 +32,7 @@ body {
 }
 
 #task-list li.checked {
-    text-decoration = line-through;
+    text-decoration: line-through;
     color: #888;
 }
 
